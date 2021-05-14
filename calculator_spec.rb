@@ -19,4 +19,8 @@ describe 'Calculator' do
   it 'divides' do
     assert_equal(Calculator.div(4, 2), 2)
   end
+
+  it 'mods' do
+    assert_equal(Calculator.mod(3, 2), 1)
+  end
 end

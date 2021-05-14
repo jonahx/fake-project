@@ -16,4 +16,8 @@ module Calculator
   def self.div(a, b)
     a / b
   end
+
+  def self.mod(a, b)
+    a % b
+  end
 end
