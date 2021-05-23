@@ -1,15 +1,25 @@
+# frozen_string_literal: true
+
 module Calculator
   module_function
-  def self.add a, b
+
+  def add(a, b)
     a + b
   end
-  def self.sub a, b
+
+  def sub(a, b)
     a - b
   end
-  def self.mult a, b
+
+  def mult(a, b)
     a * b
   end
-  def self.div a, b
+
+  def div(a, b)
     a / b
+  end
+
+  def mod(a, b)
+    a % b
   end
 end
